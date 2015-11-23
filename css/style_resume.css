@@ -1,0 +1,114 @@
+body{
+	
+	display:block;
+	background:#a7cede url('../bg.png') no-repeat top right;
+}
+.backHome{
+	position:absolute;
+	float:right;
+	top:10px;
+	right:3px;
+	width:20%;
+	height:25%;
+	margin:0;
+	padding:0;
+}
+.title{
+                position:absolute;
+                top:0px;
+                left:0px;
+                width:130px;
+                height:570px;
+                background:#a7cede url('../title.png') no-repeat top left;
+            }
+
+		
+			
+.pryamougolnik{
+	border:1px solid rgb(17,242,17);
+	background-color:rgb(17,242,17);
+	width:700px;
+	height:30px;
+	display:block;
+}
+.linia{
+	border-top:1px solid rgb(17,242,17);
+	display:block;
+	margin-top:0;
+	padding:0;
+	line-height:0.5em;
+}
+.content{
+	width:700px;
+	margin:20px auto 20px auto;
+	text-align:justify;
+	background-color:white;
+	padding:2em;
+	border:2px solid black;
+	box-shadow:8px 5px gray;
+}
+p.contprof{
+	margin-left:40px;
+}
+.area ul{
+	width:760px;
+	margin-bottom:20px;
+	overflow:hidden;
+	
+}
+.area li{
+	line-height:1.5em;
+	float:left;
+	display:inline;
+	
+}
+#double li{
+	width:44%;
+}
+h3{
+	line-height:0.5em;
+	margin:8px;
+}
+.year{
+	float:right;
+	position:relative;
+	
+}
+</*opisanie skachivanie knopki*/>
+a.knopka{
+	float:right;
+	font-weight:bold;
+	position:relative;
+}
+a#button13 {
+  display: inline-block;
+  width: 15em;
+  font-size: 80%;
+  color: rgba(255,255,255,.9);
+  text-shadow: #2e7ebd 0 1px 2px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.1;
+  white-space: pre-line;
+  padding: .7em 0;
+  border: 1px solid;
+  border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+  border-radius: 6px;
+  outline: none;
+  background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+  box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+}
+a#button13:first-line{
+  font-size: 170%;
+  font-weight: 700;
+}
+a#button13:hover {
+  color: rgb(255,255,255);
+  background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+}
+a#button13:active {
+  color: rgb(255,255,255);
+  border-color: #2970a9;
+  background-image: linear-gradient(#5796c8, #6aa2ce);
+  box-shadow: none;
+}
